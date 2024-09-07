@@ -1,11 +1,74 @@
-body {
-    background-color: rgb(156, 221, 243);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+head {
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
   }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: blue;
+  }
+
+  .column {
+    float: left;
+    padding: 10px;
+    text-align: center;
+  }
+  .column.side {
+    width: 25%;
+  }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;  
+  }
+
+h2 {
+    color: orange;
+    font-style: italic;
+      
+}
 
 main {
     align-content: center;
 }
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+}
+
+figcaption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: white;
+  }
+
 footer {
     color: blueviolet;
 }
