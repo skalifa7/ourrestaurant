@@ -1,4 +1,5 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Marck+Script&display=swap");
+/*! _normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -310,4 +311,57 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+main {
+  margin-top: 2em;
+}
+
+.menu-section {
+  margin: 0 auto;
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.menu {
+  text-align: center;
+}
+.menu img {
+  margin: 1em 0;
+}
+.menu h2 {
+  margin: 0;
+}
+.menu h3 {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 0;
+}
+.menu p {
+  color: #575757;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+}
+
+.menu h2 {
+  color: #DB8D33;
+  font-size: 48px;
+  font-family: "Marck Script", cursive;
+  font-weight: 300;
+}
+
+.main-link {
+  color: #ff6347;
+  text-transform: uppercase;
+  font-size: 14px;
 }/*# sourceMappingURL=main.css.map */

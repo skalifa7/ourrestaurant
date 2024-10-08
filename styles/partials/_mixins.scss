@@ -1,0 +1,27 @@
+@use "./typography";
+
+@mixin script-heading() {
+    color: #DB8D33;
+    font-size: 48px;
+    font-family: typography.$secondary-font;
+    font-weight: 300;
+}
+
+@mixin cta($color) {
+    background-color: $color;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    &:hover {
+        background-color: darken($color, 15%);
+        cursor: pointer;
+    }
+}
+
+
+@mixin main-link() {
+    color: #ff6347;
+    text-transform: uppercase;
+    font-size: 14px;
+}

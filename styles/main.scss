@@ -1,3 +1,21 @@
 @use "vendor/normalize";
 @use "partials/colors";
+@use "partials/base";
+@use "partials/mixins";
+@use "partials/typography";
 
+
+
+body {
+    font-family: typography.$primary-font;
+}
+
+.menu {
+  h2 {
+    @include mixins.script-heading();
+  }
+}
+
+.main-link {
+    @include mixins.main-link();
+}
